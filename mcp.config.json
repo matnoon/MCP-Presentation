@@ -1,0 +1,8 @@
+{
+  "serverPort": 3000,
+  "baseUrl": "https://www.saucedemo.com/",
+  "testDir": "./tests",
+  "pageDir": "./pages",
+  "trace": true,
+  "video": true
+}
