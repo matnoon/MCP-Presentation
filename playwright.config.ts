@@ -12,6 +12,7 @@ export default defineConfig({
     headless: false, // Always run headed
     browserName: 'chromium', // Only run in Chromium
   },
+  reporter: [['html', { open: 'always' }]], // Mostrar resultados en HTML
   projects: [
     {
       name: 'chromium',
